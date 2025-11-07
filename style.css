@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* --- En-tête --- */
+.header {
+  background: linear-gradient(to right, #b30000, #0044cc);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.slogan {
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+/* --- Présentation --- */
+.presentation {
+  padding: 2rem;
+  text-align: center;
+}
+
+.presentation h2 {
+  color: #b30000;
+  margin-bottom: 1rem;
+}
+
+/* --- Galerie --- */
+.galerie {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.galerie h2 {
+  color: #0044cc;
+  margin-bottom: 1.5rem;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.images img {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.images img:hover {
+  transform: scale(1.05);
+}
+
+/* --- Coordonnées --- */
+.coordonnees {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.coordonnees a {
+  color: #0044cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.coordonnees a:hover {
+  text-decoration: underline;
+}
+
+.whatsapp {
+  color: #25d366;
+  font-weight: bold;
+}
+
+/* --- Pied de page --- */
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
