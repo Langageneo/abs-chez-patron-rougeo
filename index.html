@@ -1,56 +1,98 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ABS & système de Freinage  — chez Patron Rougeo/title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chez PATRON ROUGEO — Système ABS</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- En-tête avec image -->
+  <!-- HEADER (image FJ Cruiser en arrière-plan + overlay rouge->bleu) -->
   <header class="header">
     <div class="overlay">
       <h1>CHEZ PATRON ROUGEO</h1>
-      <p>Systèmes ABS & Sécurité de Freinage</p>
+      <p class="lead">Systèmes ABS & Sécurité de Freinage</p>
+      <p class="slogan">Le frein, c’est la vie.</p>
     </div>
   </header>
 
-  <!-- Section de présentation -->
+  <!-- INTRO / Présentation (conserve ton texte) -->
   <section class="intro">
     <h2>Bienvenue chez PATRON ROUGEO</h2>
     <p>
-      Spécialiste des systèmes de freinage modernes (ABS, ESP, plaquettes, maître-cylindres, etc.), 
-      notre garage vous garantit un diagnostic précis et une réparation rapide.
+      Spécialiste des systèmes de freinage modernes (ABS, ESP, plaquettes, maître-cylindres...), 
+      notre garage vous garantit un diagnostic précis et une réparation rapide. Expertise pour toutes marques.
     </p>
   </section>
 
-  <!-- Section images des services -->
+  <!-- GALERIE (figures + légendes — on évite tout doublon) -->
   <section class="gallery">
-    <img src="assets/images/capteur-abs.jpg" alt="Capteur ABS" />
-    <img src="assets/images/maitre-cylindre.jpg" alt="Maître cylindre" />
-    <img src="assets/images/plaquettes-disques.jpg" alt="Plaquettes et disques" />
-    <img src="assets/images/cerveau-abs.jpg" alt="Cerveau ABS" />
-<img src="assets/images/shema-freinage.jpg" alt="Schéma de freinage" />
+    <h2>Nos Travaux & Pièces</h2>
+
+    <div class="gallery-grid">
+      <figure>
+        <img src="assets/images/capteur-abs.jpg" alt="Capteur ABS">
+        <figcaption>Capteur ABS — Détection & sécurité</figcaption>
+      </figure>
+
+      <figure>
+        <img src="assets/images/maitre-cylindre.jpg" alt="Maître cylindre">
+        <figcaption>Maître-cylindre — Pression hydraulique</figcaption>
+      </figure>
+
+      <figure>
+        <img src="assets/images/plaquettes-disques.jpg" alt="Plaquettes et disques">
+        <figcaption>Plaquettes & Disques — Freinage optimal</figcaption>
+      </figure>
+
+      <figure>
+        <img src="assets/images/cerveau-abs.jpg" alt="Cerveau ABS">
+        <figcaption>Cerveau ABS — Unité de commande électronique</figcaption>
+      </figure>
+
+      <figure>
+        <img src="assets/images/shema-freinage.jpg" alt="Schéma de freinage">
+        <figcaption>Schéma du système de freinage — Vue d'ensemble</figcaption>
+      </figure>
+    </div>
   </section>
 
-  <!-- Section contact -->
+  <!-- CONTACT + MAP -->
   <section class="contact">
     <h2>Contact & Localisation</h2>
-    <p>📍 Treichville, Rue 38 Avenue 15, Abidjan — Tout près du Collège Saint-Jean Bosco</p>
-    <p>
-      📞 <a href="tel:0504103542">05 04 10 35 42</a> /
-      <a href="tel:0707141813">07 07 14 18 13</a> /
-      <a href="tel:0787122912">07 87 12 29 12</a>
+    <p class="address">
+      <strong>Adresse :</strong>
+      <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Treichville+Rue+38+Avenue+15+Abidjan">
+        Treichville, Rue 38 Avenue 15, Abidjan (près du Collège Saint-Jean Bosco)
+      </a>
     </p>
-    <p>
-      💬 <a href="https://wa.me/2250707141813" target="_blank" class="whatsapp">WhatsApp direct</a>
+
+    <p class="phones">
+      <strong>Téléphones :</strong>
+      <a href="tel:+2250707141813">07 07 14 18 13</a> /
+      <a href="tel:+2250787122912">07 87 12 29 12</a> /
+      <a href="tel:+2250504103542">05 04 10 35 42</a>
     </p>
+
+    <p class="whatsapp">
+      <strong>WhatsApp :</strong>
+      <a target="_blank" rel="noopener" href="https://wa.me/2250707141813">07 07 14 18 13</a>
+      &nbsp;|&nbsp;
+      <a target="_blank" rel="noopener" href="https://wa.me/2250787122912">07 87 12 29 12</a>
+    </p>
+
+    <div class="map-wrap">
+      <iframe
+        src="https://www.google.com/maps?q=Treichville+Rue+38+Avenue+15,+Abidjan&output=embed"
+        width="100%" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
   </section>
 
-  <footer>
-    <p>🚘 Chez PATRON ROUGEO — Le frein, c’est la vie.</p>
+  <footer class="site-footer">
+    <p>© 2025 Chez PATRON ROUGEO — Systèmes ABS. Le frein, c'est la vie.</p>
   </footer>
 
 </body>
-  </html>
+</html>
